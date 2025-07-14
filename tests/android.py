@@ -6,8 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from percy import percy_screenshot
 
-USER_NAME = "bk20@ext.uber.com"
-ACCESS_KEY = "Sairam@7760067776"
+USER_NAME = "bhagyalakshmik_qERVnx"
+ACCESS_KEY = "ULzcw8GxxPgCfwTDWok6"
 
 
 def run_session(capability):
@@ -35,7 +35,7 @@ def run_session(capability):
 if __name__ == '__main__':
     pixel_4 = {
         "deviceName": "Google Pixel 4",
-        "app": '{"app_url":"bs://c6d80720f4964e9e02ac98f935b417d2a43321a9"}',
+        "app": '{"app_url":"bs://73edef838764a3652f6bc8db65cf8bfaab86010c"}',
         "appium:percyOptions": {
             # enabled is default True. This can be used to disable visual testing for certain capabilities
             "enabled": True
