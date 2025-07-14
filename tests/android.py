@@ -24,7 +24,7 @@ def run_session(capability):
             (AppiumBy.ID, "org.wikipedia.alpha:id/search_src_text")
         )
     )
-    search_input.send_keys("BrowserStack")
+    search_input.send_keys("BrowserStack again")
     time.sleep(2)
     driver.hide_keyboard()
     percy_screenshot(driver, 'screenshot 2')
@@ -35,7 +35,7 @@ def run_session(capability):
 if __name__ == '__main__':
     pixel_4 = {
         "deviceName": "Google Pixel 4",
-        "app": '{"app_url":"bs://73edef838764a3652f6bc8db65cf8bfaab86010c"}',
+        "app": 'bs://d64f7f19aaca5845719dd43a2a2631c8382f8723',
         "appium:percyOptions": {
             # enabled is default True. This can be used to disable visual testing for certain capabilities
             "enabled": True
