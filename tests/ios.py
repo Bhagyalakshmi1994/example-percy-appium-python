@@ -23,7 +23,7 @@ def run_session(capability):
     text_input = WebDriverWait(driver, 30).until(
         EC.element_to_be_clickable((AppiumBy.ACCESSIBILITY_ID, "Text Input"))
     )
-    text_input.send_keys("hello@browserstack.com" + "\n")
+    text_input.send_keys("Bhagya" + "\n")
     #text_input.send_keys("BrowserStack again" + "\n")
     time.sleep(1)
     driver.hide_keyboard()
